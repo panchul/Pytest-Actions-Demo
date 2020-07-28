@@ -1,4 +1,4 @@
-![Python package](https://github.com/panchul/Pytest-Actions-Demo/workflows/My%20Python%20app/badge.svg)
+![My Python app](https://github.com/panchul/Pytest-Actions-Demo/workflows/My%20Python%20app/badge.svg)
 # Skeleton code for a Python application
 
 See also my Python sanbdox [https://github.com/panchul/sb_python](https://github.com/panchul/sb_python)
@@ -54,8 +54,8 @@ After every commit, visit the Actions tab and review the results of automated li
 
 The status of your workflow can be embedded using the link to the badge:
 
-`![Python package](https://github.com/panchul/Pytest-Actions-Demo/workflows/My%20Python%20app/badge.svg)`
-( Which looks like this: ![Python package](https://github.com/panchul/Pytest-Actions-Demo/workflows/My%20Python%20app/badge.svg) )
+`![My Python app](https://github.com/panchul/Pytest-Actions-Demo/workflows/My%20Python%20app/badge.svg)`
+( Which looks like this: ![My Python app](https://github.com/panchul/Pytest-Actions-Demo/workflows/My%20Python%20app/badge.svg) )
 
 ## Links:
 

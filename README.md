@@ -5,6 +5,8 @@ Here you can find a demo of a Python application with an automated testing using
 Anytime you want to start a new project in Python, feel free to use this code as a skeleton.
 Copy the contents to your repository and build your code upon it.
 
+You will need to enable Actions in your repository.
+
 File demo.py contains a code for `factorial()` function.
 
 File `test_demo.py` has a few tests to make sure the `factorial()` function works correctly.

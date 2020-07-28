@@ -9,3 +9,4 @@ def factorial(number):
         return 1
 
     return factorial(number-1) * number
+

@@ -9,7 +9,9 @@ You will need:
 
 - have GitHub account
 - enable Actions in your repository
-- `pytest` Python package, if you already do not have it, install it with, for example, pip:
+- `pytest` Python package.
+
+if you already do not have pytest or flake8, install it with, for example, pip:
 
     $ pip3 install pytest flake8
 
@@ -18,6 +20,8 @@ You will need:
 File demo.py contains a code for `factorial()` function. (so, the whole thing is a package, not an app, btw)
 
 ## local unit testing
+
+The Makefile is a wrapper for pytest execution, which you can run directly.
 
 File `test_demo.py` has a few tests to make sure the `factorial()` function works correctly.
 
@@ -62,7 +66,7 @@ Or, with explicit branch and event:
 
 `![My Python app](https://github.com/panchul/Pytest-Actions-Demo/workflows/My%20Python%20app/badge.svg?branch=master&event=push)`
 
-![My Python app](https://github.com/panchul/Pytest-Actions-Demo/workflows/My%20Python%20app/badge.svg?branch=master&event=push)
+( Which looks like this: ![My Python app](https://github.com/panchul/Pytest-Actions-Demo/workflows/My%20Python%20app/badge.svg?branch=master&event=push) )
 
 
 ## Links:
@@ -71,3 +75,4 @@ Or, with explicit branch and event:
  * https://docs.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions
  * https://flake8.pycqa.org/en/latest/
  * https://vak.dreamwidth.org/657802.html
+ * https://bitbucket.org/serge-vakulenko/pytest-pipelines-demo/src/master/
